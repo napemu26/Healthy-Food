@@ -1,0 +1,22 @@
+.footer-container {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1100px;
+}
+
+.copy {
+	color: #1d164d;
+}
+
+.terms {
+	color: #bcbac8;
+	text-decoration: none;
+}

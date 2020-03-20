@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './index.css'
+import './index.scss'
 import BgRecipe1 from '../../img/comida_1.svg'
 import BgRecipe2 from '../../img/comida_2.svg'
 import BgRecipe3 from '../../img/comida_3.svg'

@@ -79,19 +79,6 @@
 	width: 100%;
 }
 
-.recipes-tittle {
-	font-size: 30px;
-	margin-bottom: 10px;
-	margin-top: 40px;
-}
-
-.recipes-paragraph {
-	width: 490px;
-	text-align: center;
-	color: #bcbac7;
-	margin-bottom: 30px;
-}
-
 .services-page {
 	height: 700px;
 	background-image: url('../../img/bloco_services.svg');
@@ -108,13 +95,13 @@
 	width: 400px;
 }
 
-.services-tittle {
+.pages-tittle {
 	font-size: 34px;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
 
-.services-paragraph {
+.pages-paragraph {
 	padding: 15px 0;
 	color: #bcbac8;
 }
@@ -146,14 +133,96 @@
 		text-align: center;
 	}
 
-	.services-tittle {
+	.pages-tittle {
 		font-size: 40px;
 		font-weight: 700;
 		margin-bottom: 15px;
 	}
 
-	.services-paragraph {
+	.pages-paragraph {
 		padding: 15px 0;
 		color: #999;
+	}
+}
+
+.blog-posts {
+	background-color: #fafafa;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.blog-posts p {
+	width: 490px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.join-page {
+	margin-top: 30px;
+	height: 700px;
+	background-image: url('../../img/bloco_final_image.svg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #fff;
+	background-position: right;
+	display: flex;
+	align-items: center;
+}
+
+.join-description {
+	width: 100%;
+	max-width: 1100px;
+	margin: auto;
+}
+
+.form-join-tittle {
+	font-size: 36px;
+	font-weight: 600;
+	display: block;
+	width: 380px;
+}
+
+.form-join {
+	margin-top: 20px;
+}
+
+.join-btn {
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 30px;
+	box-shadow: 2px 5px 6px #ddd;
+	border: none;
+	background-color: #b9db60;
+	border-radius: 6px;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+	.join-page {
+		margin-top: 30px;
+		height: 700px;
+		background-image: none;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: #fff;
+		background-position: right;
+		display: flex;
+		align-items: center;
+	}
+
+	.join-description {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.form-join input {
+		margin-top: 20px;
 	}
 }
